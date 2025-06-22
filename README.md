@@ -13,4 +13,4 @@ A collection of my quantitative finance projects, categorized for easier browsin
     * **Description:** Developed a machine learning model to predict customer churn using various techniques (Logistic Regression, Random Forest, Gradient Boosting). Achieved 90% accuracy in predicting churn.  This project was adapted to a financial context by focusing on predicting client attrition for a specific investment product.
     * **Technologies:** Python, Scikit-learn, Yfinance, sklearn
     * **Link:** [Project Link](link) [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/drive/1Jh78UxSBzGYzFTaW4P1G7Zr4CZcNsiNz?usp=sharing)
-    * **Plots:** 
+    * **Plots:** ![My Photo](Plots/StockPrediciton_NeuralNetwork.png)
