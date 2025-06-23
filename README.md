@@ -26,7 +26,7 @@ This section details my quantitative finance projects, providing descriptions, t
 * **Description:** This project predicts stock price movements using a Convolutional Neural Network (CNN). Time series data was converted into images using Gramian Angular Fields (GAF) for input to the CNN.
 * **Technologies:** Python, GAF, TensorFlow/Keras (Keras was used), Scikit-learn
 * **Link:** [Project Link](https://github.com/kachunchan-analytics/projects/blob/main/ConvolutionalNeuralNetwork_Prediction.ipynb)
-* **Colab Notebook:** [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/drive/1fXhuSLU_CxPIHiMbELwEuuKoJih2SeQs?usp=sharing)
+* **Colab Notebook:** [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/drive/16K-MHH1t0trMnDD9BtNYT5yVJ6Oq2-8u?usp=sharing)
 * **Key Results:**
     * GAF Representation: 
     ![GAF Representation](Plots/GAF.png)
