@@ -12,7 +12,7 @@ Welcome! I'm a quantitative finance professional passionate about applying machi
 This section details my quantitative finance projects, providing descriptions, technologies used, links to the code, and visualizations of key results.
 
 
-### Stock Price Prediction using Neural Networks
+### 1. Stock Price Prediction using Neural Networks
 
 * **Description:** This project predicts stock prices using historical data and a neural network. Hyperparameter optimization was performed using Grid Search.
 * **Technologies:** Python, Scikit-learn, yfinance, TensorFlow/Keras (Keras was used)
@@ -21,7 +21,7 @@ This section details my quantitative finance projects, providing descriptions, t
 * **Key Results:**  ![Stock Price Prediction](Plots/StockPrediciton_NeuralNetwork.png)
 
 
-### Stock Price Movement Prediction using Convolutional Neural Networks and Gramian Angular Fields (GAF)
+### 2. Stock Price Movement Prediction using Convolutional Neural Networks and Gramian Angular Fields (GAF)
 
 * **Description:** This project predicts stock price movements using a Convolutional Neural Network (CNN). Time series data was converted into images using Gramian Angular Fields (GAF) for input to the CNN.
 * **Technologies:** Python, GAF, TensorFlow/Keras (Keras was used), Scikit-learn
@@ -33,6 +33,18 @@ This section details my quantitative finance projects, providing descriptions, t
     * Classification Results: 
     ![Classification Results](Plots/classification.png)
 
+
+### 3. Factor Investing and Stock Return Prediction with Regression
+
+* **Description:** This project investigates the application of linear regression models for factor investing and stock return prediction. It explores the relationship between stock returns and a set of factors, such as market returns, industry returns, and value factors. The project uses historical data to estimate the factor exposures of stocks and assess their performance using linear regression models.
+* **Technologies:** Python, FF5, Pandas, NumPy, Scikit-learn, Statsmodels
+* **Link:** [Project Link](https://github.com/kachunchan-analytics/projects/blob/main/FactorInvesting_Regression.ipynb)
+* **Colab Notebook:** [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/drive/1In2mAIVCV57szBqVPETY9tHOZyidwOwH?usp=sharing)
+* **Key Results:**
+    * Model Formula and Coefficients: 
+    ![FF5 Formulas](Plots/FF5_formulas.png)
+    * FF5 Correlation: 
+    ![FF5 Correlation](Plots/FF5_correlation.png)
 
 ## Future Projects:
 
