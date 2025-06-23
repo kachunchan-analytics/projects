@@ -28,8 +28,10 @@ This section details my quantitative finance projects, providing descriptions, t
 * **Link:** [Project Link](https://github.com/kachunchan-analytics/projects/blob/main/ConvolutionalNeuralNetwork_Prediction.ipynb)
 * **Colab Notebook:** [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/drive/1fXhuSLU_CxPIHiMbELwEuuKoJih2SeQs?usp=sharing)
 * **Key Results:**
-    * GAF Representation: ![GAF Representation](Plots/GAF.png)
-    * Classification Results: ![Classification Results](Plots/classification.png)
+    * GAF Representation: 
+    ![GAF Representation](Plots/GAF.png)
+    * Classification Results: 
+    ![Classification Results](Plots/classification.png)
 
 
 ## Future Projects:
