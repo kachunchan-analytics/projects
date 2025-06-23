@@ -1,6 +1,6 @@
 # Projects
 
-A collection of my quantitative finance projects, categorized for easier browsing.  👋
+>A collection of my quantitative finance projects, categorized for easier browsing.  👋
 
 **Introduction:**
 
