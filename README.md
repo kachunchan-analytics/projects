@@ -46,7 +46,7 @@ This section details my quantitative finance projects, providing descriptions, t
     * FF5 Correlation: 
     ![FF5 Correlation](Plots/FF5_correlation.png)
 
-### 3. Using Denoised Covariance Matrix with MVO
+### 4. Using Denoised Covariance Matrix with MVO
 
 * **Description:** This project This demonstrates the method for constructing an optimal investment portfolio by employing techniques to denoise the estimated covariance matrix of asset returns. It addresses the challenge of estimating accurate covariance matrices, which is crucial for modern portfolio theory but can be susceptible to noise from limited historical data. The approach involves using concepts from random matrix theory, specifically the Marchenko-Pastur distribution, to identify and separate the "signal" from the "noise" in the eigenvalues of the asset correlation matrix. This denoised covariance matrix is then used within the Markowitz mean-variance optimization framework to determine the portfolio weights that maximize the Sharpe ratio.
 * **Technologies:** Python, Pandas, NumPy
