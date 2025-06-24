@@ -46,6 +46,18 @@ This section details my quantitative finance projects, providing descriptions, t
     * FF5 Correlation: 
     ![FF5 Correlation](Plots/FF5_correlation.png)
 
+### 3. Using Denoised Covariance Matrix with MVO
+
+* **Description:** This project This demonstrates the method for constructing an optimal investment portfolio by employing techniques to denoise the estimated covariance matrix of asset returns. It addresses the challenge of estimating accurate covariance matrices, which is crucial for modern portfolio theory but can be susceptible to noise from limited historical data. The approach involves using concepts from random matrix theory, specifically the Marchenko-Pastur distribution, to identify and separate the "signal" from the "noise" in the eigenvalues of the asset correlation matrix. This denoised covariance matrix is then used within the Markowitz mean-variance optimization framework to determine the portfolio weights that maximize the Sharpe ratio.
+* **Technologies:** Python, Pandas, NumPy
+* **Link:** [Project Link](https://github.com/kachunchan-analytics/projects/blob/main/DenoisedCovariance_with_MVO.ipynb)
+* **Colab Notebook:** [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/drive/1XYcTXRNG30QvIhHPytzUl1QbZ44-aJJ4?usp=sharing)
+* **Key Results:**
+    * Denoised Covariance Matrix: 
+    ![Denoised Covariance Matrix](Plots/DenoisedCovarianceMatrix.png)
+    * Benchmark against Index: 
+    ![Benchmark against Index](Plots/BenchmarkIndex.png)
+
 ## Future Projects:
 
 * **Option Pricing using Deep Learning:**  Explore the application of deep learning models, such as Recurrent Neural Networks (RNNs) or Convolutional Neural Networks (CNNs), for pricing complex options beyond the Black-Scholes framework. This would involve generating synthetic option data, training the models, and evaluating their performance against benchmark models.  The project will focus on handling high-dimensional input features and potentially incorporating market microstructure data.
