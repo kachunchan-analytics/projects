@@ -19,7 +19,7 @@ This section details my quantitative finance projects, providing descriptions, t
 * **Colab Notebook:** [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/drive/1dafl_LF6riOwa7h9Qd5xxW4TTYigpepk?usp=sharing)
 * **Key Results:**
     * Backtesting Plots: 
-    ![Backtest Results](Plots/AAPL_backtest_results.png)
+    ![Backtest Results](Plots/backtest_results.png)
 
 ### 2. Stock Price Movement Prediction using Convolutional Neural Networks and Gramian Angular Fields (GAF)
 
