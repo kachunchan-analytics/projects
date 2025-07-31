@@ -12,14 +12,14 @@ Welcome! I'm a quantitative finance professional passionate about applying machi
 This section details my quantitative finance projects, providing descriptions, technologies used, links to the code, and visualizations of key results.
 
 
-### 1. Stock Price Prediction using Neural Networks
-
-* **Description:** This project predicts stock prices using historical data and a neural network. Hyperparameter optimization was performed using Grid Search.
-* **Technologies:** Python, Scikit-learn, yfinance, TensorFlow/Keras (Keras was used)
-* **Link:** [Project Link](https://github.com/kachunchan-analytics/projects/blob/main/StockPricePrediction_NeuralNetwork.ipynb)
-* **Colab Notebook:** [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/drive/1Jh78UxSBzGYzFTaW4P1G7Zr4CZcNsiNz?usp=sharing)
-* **Key Results:**  ![Stock Price Prediction](Plots/StockPrediciton_NeuralNetwork.png)
-
+### 1. Backtesting Trading Strategy with Backtesting.py
+* **Description:** This project demonstrates how to implement and evaluate a trading strategy using the `backtesting.py` library. It includes data preparation, strategy definition, and performance analysis through backtesting on historical stock data. The notebook provides clear visualizations of the strategy’s performance, helping to identify strengths and weaknesses before deploying in live trading.
+* **Technologies:** Python, backtesting.py
+* **Link:** [Project Link](https://github.com/kachunchan-analytics/projects/blob/main/StockBacktesting.ipynb)
+* **Colab Notebook:** [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/drive/1dafl_LF6riOwa7h9Qd5xxW4TTYigpepk?usp=sharing)
+* **Key Results:**
+    * Backtesting Plots: 
+    ![Backtest Results](Plots/AAPL_backtest_results.png)
 
 ### 2. Stock Price Movement Prediction using Convolutional Neural Networks and Gramian Angular Fields (GAF)
 
@@ -57,6 +57,14 @@ This section details my quantitative finance projects, providing descriptions, t
     ![Denoised Covariance Matrix](Plots/DenoisedCovarianceMatrix.png)
     * Benchmark against Index: 
     ![Benchmark against Index](Plots/BenchmarkIndex.png)
+
+## 5. Stock Price Prediction using Neural Networks
+
+* **Description:** This project predicts stock prices using historical data and a neural network. Hyperparameter optimization was performed using Grid Search.
+* **Technologies:** Python, Scikit-learn, yfinance, TensorFlow/Keras (Keras was used)
+* **Link:** [Project Link](https://github.com/kachunchan-analytics/projects/blob/main/StockPricePrediction_NeuralNetwork.ipynb)
+* **Colab Notebook:** [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/drive/1Jh78UxSBzGYzFTaW4P1G7Zr4CZcNsiNz?usp=sharing)
+* **Key Results:**  ![Stock Price Prediction](Plots/StockPrediciton_NeuralNetwork.png)
 
 ## Future Projects:
 
